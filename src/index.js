@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'; 
 import { getTemplate } from './templates';
 import { createElement, appendToBody } from './utils';
 
