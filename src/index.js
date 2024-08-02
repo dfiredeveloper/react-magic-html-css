@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+import { string } from 'prop-types';
 import { getTemplate } from './templates';
 import { createElement, appendToBody } from './utils';
 
@@ -41,10 +41,10 @@ const HtmlCssComponent = ({ templateName, html, css, js }) => {
 };
 
 HtmlCssComponent.propTypes = {
-  templateName: PropTypes.string,
-  html: PropTypes.string,
-  css: PropTypes.string,
-  js: PropTypes.string,
+  templateName: string,
+  html: string,
+  css: string,
+  js: string,
 };
 
 HtmlCssComponent.defaultProps = {
