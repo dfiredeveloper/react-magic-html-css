@@ -28,4 +28,3 @@ class Example extends Component {
 ## License
 
 MIT © [dfiredeveloper](https://github.com/dfiredeveloper)
-# react-magic-html-css
