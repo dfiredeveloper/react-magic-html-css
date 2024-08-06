@@ -1,4 +1,11 @@
-# react-magic-html-css
+# ReactMagicHTMLCSS
+
+ReactMagicHTMLCSS is a React library that allows you to use plain HTML and CSS to write code inside of React components. It also supports dynamic styles, scripts, reusable templates, and custom component registration.
+
+## Installation
+
+```bash
+npm install react-magic-html-css
 
 > Made with create-react-library
 
